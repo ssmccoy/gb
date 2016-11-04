@@ -144,12 +144,12 @@ List lists packages imported by the project.
 
 The default output shows the package import paths:
 
-	% gb list github.com/constabulary/...
-	github.com/constabulary/gb
-	github.com/constabulary/gb/cmd
-	github.com/constabulary/gb/cmd/gb
-	github.com/constabulary/gb/cmd/gb-env
-	github.com/constabulary/gb/cmd/gb-list
+	% gb list github.com/ssmccoy/...
+	github.com/ssmccoy/gb
+	github.com/ssmccoy/gb/cmd
+	github.com/ssmccoy/gb/cmd/gb
+	github.com/ssmccoy/gb/cmd/gb-env
+	github.com/ssmccoy/gb/cmd/gb-list
 
 Flags:
 	-f

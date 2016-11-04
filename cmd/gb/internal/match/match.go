@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/constabulary/gb/internal/debug"
+	"github.com/ssmccoy/gb/internal/debug"
 )
 
 // importPathsNoDotExpansion returns the import paths to use for the given

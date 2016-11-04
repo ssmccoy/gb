@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/constabulary/gb"
+	"github.com/ssmccoy/gb"
 )
 
 func TestTest(t *testing.T) {

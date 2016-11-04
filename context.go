@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/constabulary/gb/internal/debug"
-	"github.com/constabulary/gb/internal/importer"
+	"github.com/ssmccoy/gb/internal/debug"
+	"github.com/ssmccoy/gb/internal/importer"
 	"github.com/pkg/errors"
 )
 

@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/constabulary/gb/internal/importer"
+	"github.com/ssmccoy/gb/internal/importer"
 )
 
 func testContext(t *testing.T, opts ...func(*Context) error) *Context {

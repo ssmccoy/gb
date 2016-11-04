@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/constabulary/gb/internal/importer"
+	"github.com/ssmccoy/gb/internal/importer"
 )
 
 func TestBuild(t *testing.T) {

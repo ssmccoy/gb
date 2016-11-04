@@ -5,8 +5,8 @@ import (
 	"flag"
 	"os"
 
-	"github.com/constabulary/gb"
-	"github.com/constabulary/gb/internal/debug"
+	"github.com/ssmccoy/gb"
+	"github.com/ssmccoy/gb/internal/debug"
 	"github.com/pkg/errors"
 )
 

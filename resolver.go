@@ -3,7 +3,7 @@ package gb
 import (
 	"os"
 
-	"github.com/constabulary/gb/internal/importer"
+	"github.com/ssmccoy/gb/internal/importer"
 	"github.com/pkg/errors"
 )
 

@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/constabulary/gb/internal/debug"
+	"github.com/ssmccoy/gb/internal/debug"
 	"github.com/pkg/errors"
 )
 

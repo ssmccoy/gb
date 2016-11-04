@@ -974,7 +974,7 @@ func TestX(t *testing.T) {
 }
 `
 
-// https://github.com/constabulary/gb/issues/349
+// https://github.com/ssmccoy/gb/issues/349
 func TestTestGbTestPassesUnknownFlags(t *testing.T) {
 	gb := T{T: t}
 	defer gb.cleanup()
@@ -1006,7 +1006,7 @@ func TestY(t *testing.T) {
 }
 `
 
-// https://github.com/constabulary/gb/issues/473
+// https://github.com/ssmccoy/gb/issues/473
 func TestGbTestIssue473a(t *testing.T) {
 	gb := T{T: t}
 	defer gb.cleanup()
@@ -1380,7 +1380,7 @@ func TestRaceMapRW(t *testing.T) {
 
 // test that gb will no build the stdlib directly, only as transitive deps.
 func TestNoBuildStdlib(t *testing.T) {
-	t.Skip("constabulary/gb#505")
+	t.Skip("ssmccoy/gb#505")
 	gb := T{T: t}
 	defer gb.cleanup()
 	gb.tempDir("src/")
@@ -1422,7 +1422,7 @@ func main() { println("hello world") }
 	gb.wantExecutable(gb.path("bin", name), "expected $PROJECT/bin/p-$GOOS-$GOARCH")
 }
 
-// https://github.com/constabulary/gb/issues/416
+// https://github.com/ssmccoy/gb/issues/416
 func TestGbBuildBuildsPackgeCalledCmd(t *testing.T) {
 	gb := T{T: t}
 	defer gb.cleanup()
@@ -1444,7 +1444,7 @@ func main() { println("hello world") }
 	gb.wantExecutable(gb.path("bin", name), "expected $PROJECT/bin/"+name)
 }
 
-// https://github.com/constabulary/gb/issues/492
+// https://github.com/ssmccoy/gb/issues/492
 func TestGbBuildSubPackageOfCmd(t *testing.T) {
 	gb := T{T: t}
 	defer gb.cleanup()
@@ -1464,7 +1464,7 @@ func main() { println("hello world") }
 	gb.wantExecutable(gb.path("bin", name), "expected $PROJECT/bin/hello")
 }
 
-// https://github.com/constabulary/gb/issues/515
+// https://github.com/ssmccoy/gb/issues/515
 func TestIssue515(t *testing.T) {
 	gb := T{T: t}
 	defer gb.cleanup()

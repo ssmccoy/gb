@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/constabulary/gb"
+	"github.com/ssmccoy/gb"
 )
 
 type Resolver interface {

@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/constabulary/gb"
-	"github.com/constabulary/gb/cmd"
-	"github.com/constabulary/gb/internal/importer"
+	"github.com/ssmccoy/gb"
+	"github.com/ssmccoy/gb/cmd"
+	"github.com/ssmccoy/gb/internal/importer"
 	"github.com/pkg/errors"
 )
 

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/constabulary/gb/internal/importer"
+	"github.com/ssmccoy/gb/internal/importer"
 	"github.com/pkg/errors"
 )
 

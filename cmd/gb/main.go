@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/constabulary/gb"
-	"github.com/constabulary/gb/cmd"
-	"github.com/constabulary/gb/cmd/gb/internal/match"
-	"github.com/constabulary/gb/internal/debug"
+	"github.com/ssmccoy/gb"
+	"github.com/ssmccoy/gb/cmd"
+	"github.com/ssmccoy/gb/cmd/gb/internal/match"
+	"github.com/ssmccoy/gb/internal/debug"
 )
 
 var (

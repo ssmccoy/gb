@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/constabulary/gb"
-	"github.com/constabulary/gb/cmd"
+	"github.com/ssmccoy/gb"
+	"github.com/ssmccoy/gb/cmd"
 )
 
 func init() {

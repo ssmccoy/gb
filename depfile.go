@@ -12,10 +12,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/constabulary/gb/internal/debug"
-	"github.com/constabulary/gb/internal/depfile"
-	"github.com/constabulary/gb/internal/importer"
-	"github.com/constabulary/gb/internal/untar"
+	"github.com/ssmccoy/gb/internal/debug"
+	"github.com/ssmccoy/gb/internal/depfile"
+	"github.com/ssmccoy/gb/internal/importer"
+	"github.com/ssmccoy/gb/internal/untar"
 	"github.com/pkg/errors"
 )
 

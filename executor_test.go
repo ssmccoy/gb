@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/constabulary/gb/internal/importer"
+	"github.com/ssmccoy/gb/internal/importer"
 )
 
 func TestExecuteBuildAction(t *testing.T) {
